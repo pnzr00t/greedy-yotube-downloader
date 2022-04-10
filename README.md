@@ -1,5 +1,5 @@
 # greedy-yotube-downloader
-Massive instal YouTube channals, and YouTube Lists with preview images, titles, descriptions, subs etc.
+Massive downloader YouTube channals, and YouTube Lists with preview images, titles, descriptions, subs etc.
 
 ## Links:
 	Script based on pytube library
