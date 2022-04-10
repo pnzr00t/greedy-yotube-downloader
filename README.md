@@ -2,9 +2,9 @@
 Massive downloader YouTube channals, and YouTube Lists with preview images, titles, descriptions, subs etc.
 
 ## Links:
-Script based on pytube library
-[Pytube site](https://pytube.io/en/latest/)
-[Pytube github](https://github.com/pytube/pytube)
+Script based on pytube library:
+..* [Pytube site](https://pytube.io/en/latest/)
+..* [Pytube github](https://github.com/pytube/pytube)
 
 ## Requirements
 	Python version >= 3
