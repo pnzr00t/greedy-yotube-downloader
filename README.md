@@ -7,10 +7,7 @@ Massive downloader YouTube channals, and YouTube Lists with preview images, titl
 	[Pytube github](https://github.com/pytube/pytube)
 
 ## Install
-Run command in console
-`pip install git+https://github.com/pytube/pytube`
-or
-`pip install pytube`
+Run command `pip install -r ./requirements.txt`
 
 ## Usage 
 
