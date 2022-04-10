@@ -45,7 +45,9 @@ After downloading you see sets of files, with naming == youtube video ID for exa
 ```
 
 0nFfurVRqnE.jpg - Preview image file
+
 0nFfurVRqnE.json - Titles, descriptions, etc
+
 0nFfurVRqnE.mp4 - YouTube video
 
 
