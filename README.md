@@ -1,6 +1,11 @@
 # greedy-yotube-downloader
 Massive instal YouTube channals, and YouTube Lists with preview images, titles, descriptions, subs etc.
 
+## Links:
+	Script based on pytube library
+	[Pytube site](https://pytube.io/en/latest/)
+	[Pytube github](https://github.com/pytube/pytube)
+
 ## Install
 Run command in console
 `pip install git+https://github.com/pytube/pytube`
@@ -9,10 +14,17 @@ or
 
 ## Usage 
 
+### Download whole channal
 Open `dl_list.py` file, scroll to bottom file.
 
 If you need downlad channals, uncomment (delete '#' at start string if it has it) this line, and enter url to channals
 `#youtube_downloader.download_from_channal_url('https://www.youtube.com/c/SUREN_VIDEO') # <----- ENTER CHANNAL URL HERE`
+
+Run dl_script.py in terminal
+`/usr/bin/nohup python dl_list.py > _log1 2>_log2 & echo $!`
+
+### Download whole playlist
+Open `dl_list.py` file, scroll to bottom file.
 
 If you need download youtube list. Uncomment (delete '#' at start string if it has it) this line, and enter url to list
 `#youtube_downloader.download_from_play_list('https://www.youtube.com/watch?v=KzH1ovd4Ots&list=PLoROMvodv4rNH7qL6-efu_q2_bPuy0adh') # <------- ENTER PLAYLIST URL HERE`
