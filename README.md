@@ -1,13 +1,13 @@
 # greedy-yotube-downloader
 Massive instal YouTube channals, and YouTube Lists with preview images, titles, descriptions, subs etc.
 
-##Install
+## Install
 Run command in console
 `pip install git+https://github.com/pytube/pytube`
 or
 `pip install pytube`
 
-##Usage 
+## Usage 
 
 Open `dl_list.py` file, scroll to bottom file.
 
@@ -20,6 +20,7 @@ If you need download youtube list. Uncomment (delete '#' at start string if it h
 Run dl_script.py in terminal
 `/usr/bin/nohup python dl_list.py > _log1 2>_log2 & echo $!`
 
+## Output info
 After downloading you see sets of files, with naming == youtube video ID for examle 
 
 ```
@@ -34,3 +35,6 @@ After downloading you see sets of files, with naming == youtube video ID for exa
 0nFfurVRqnE.jpg - Preview image file
 0nFfurVRqnE.json - Titles, descriptions, etc
 0nFfurVRqnE.mp4 - YouTube video
+
+
+index_file.txt - List of all downloaded video id's. If you run script again, it's check this list, and will not download already downloaded videos
