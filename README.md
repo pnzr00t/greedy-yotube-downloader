@@ -6,7 +6,7 @@ Massive downloader YouTube channals, and YouTube Lists with preview images, titl
 	[Pytube site](https://pytube.io/en/latest/)
 	[Pytube github](https://github.com/pytube/pytube)
 
-## Requerements
+## Requirements
 	Python version >= 3
 
 ## Install
